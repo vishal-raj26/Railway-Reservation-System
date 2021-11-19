@@ -1,0 +1,215 @@
+body
+{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("ba.jpg");
+ background-size: cover;
+background-position: center;
+}
+label.logo{
+	color: white;
+	font-size: 40px;
+	line-height: 80px;
+	font-weight: 700;
+	
+}
+
+nav ul{
+      float:right;
+      margin-right: 20px;
+}
+nav ul li{
+display: inline-block;
+	line-height: 80px;
+	margin: 5px;	
+}
+nav ul li a{
+	color: white;
+	font-size: 20px;
+	padding: 7px;
+
+}
+a.active,a:hover{
+	background: transparent;
+	transition: .5s;
+}
+.booking-form-box
+{
+max-width: 350px;
+border: 1px white;
+outline-style: double;
+outline-color: white;
+margin: 5% auto 0;
+}
+.radio-btn
+{
+  margin: 0 20px;
+}
+
+.radio-btn .btn
+{
+   margin: 20px 10px 20px 0;
+box-shadow: none;
+} 
+.radio-btn .btn::after
+{
+content: '';
+height: 15px;
+width: 15px;
+top: -4px;
+left: -1px;
+background-color: #fff;
+position: relative;
+display: inline-block;
+border: 3px solid #fff;
+visibility: visible;
+border-radius: 50%;
+}
+.radio-btn .btn:checked::after
+{
+content: '';
+background-color: #000;
+transition: 0.5s;
+}
+.radio-btn span
+{
+color: #fff;
+margin-right: 5px;
+font-size: 12px;
+}
+.booking-form
+{
+padding: 0 20px 20px;
+}
+.booking-form label
+{
+margin-bottom: 5px;
+margin-top: 10px;
+font-size: 12px;
+color: #fff;
+}
+input::placeholder
+{
+color: #fff !important;
+}
+.input-grp
+{
+width: 151px;
+display: inline-block;
+}
+.form-control
+{
+font-size: 12px!important;
+border-radius: 0!important;
+color: #fff!important;
+background: transparent!important;
+box-shadow: none!important;
+}
+.select-date::-webkit-inner-spin-button,
+
+.select-date::-webkit-outer-spin-button
+{
+-webkit-appearance:none;
+margin: 0;
+}
+
+.select-date::-webkit-calendar-picker-indicator
+{
+background:transparent!important;
+}
+.custom-select
+{
+color"#fff!important;
+font-size: 12px!important;
+border: 1px solid #ced4da!important;
+box-shadow: none!important;
+border-radius: 0!important;
+background: transparent!important;
+}
+.custom-select option
+{
+color: #333;
+}
+.Train
+
+{
+width: 100%;
+padding: 8px 0;
+font-size: 12px;
+border: 1px solid #ced4da!important;
+box-shadow:0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3!important;
+transition-delay: 1s;
+border-radius: 0!important;
+}
+
+.Holiday
+{
+padding: 100px 0;
+}
+h1
+{
+text-align: center;
+padding-bottom:30px;
+color:white;
+}
+.feature-img img
+{
+width:100%;
+}
+.price
+{
+width:60px;
+height:60px;
+background:#ff5722;
+color:#fff;
+font-weight: 400;
+border-radius:50%;
+padding:14px 6px;
+box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+position:absolute;
+left:20px;
+bottom: 200px;
+}
+.price1
+{
+width:60px;
+height:60px;
+background:#ff5722;
+color:#fff;
+font-weight: 400;
+border-radius:50%;
+padding:14px 6px;
+box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+position:absolute;
+left:20px;
+bottom: 385px;
+}
+.feature-details
+{
+text-align:justify;
+color:white;
+}
+.Service
+{
+padding: 100px 0;
+}
+h1
+{
+text-align: center;
+padding-bottom:30px;
+color: #2196f3;
+text-shadow:0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff!important;;
+}
+p
+{
+color:white;
+font-size:18px;
+font-style:italic;
+}
+h3 b
+{
+color:white;
+}
+ul li
+{
+color:white;
+font-size:18px;
+}
